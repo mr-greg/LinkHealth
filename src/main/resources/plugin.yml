@@ -1,0 +1,11 @@
+name: LinkHealth
+version: '${project.version}'
+main: me.linkhealth.linkhealth.LinkHealth
+api-version: '1.20'
+commands:
+  linkhealth:
+    description: Établir un lien entre vos points de vie et un autre joueur !
+    usage: /linkhealth Joueur
+  unlinkhealth:
+    description: Rompre le lien entre vos points de vie et votre partenaire.
+    usage: /unlinkhealth
